@@ -1,0 +1,21 @@
+﻿@using PartialViewPassingModel.Models
+@model IEnumerable<PartialViewPassingModel.Models.Product>
+           
+@{
+    foreach (Product aProduct in Model)
+    {
+        <table>
+            <tr>
+                <td>
+                    @aProduct.Name
+                </td>
+            
+            
+                 <td>
+                    @aProduct.Price
+                 </td>
+            </tr>
+            
+        </table>
+    }
+}

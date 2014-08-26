@@ -1,0 +1,44 @@
+﻿@using PartialViewPassingModel.Models
+@model IEnumerable<PartialViewPassingModel.Models.Product>  
+@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+                
+            </hgroup>
+        </div>
+    </section>
+}
+
+
+
+
+
+
+
+
+
+@*@{
+    Product p1 = new Product() {Name = "Potato", Price = 10};
+    Product p2=new Product(){Name = "Buiscuit",Price = 50};
+    Product p3=new Product(){Name = "Ice Creame",Price = 100};
+    
+    List<Product> productList=new List<Product>();
+    
+    productList.Add(p1);
+    productList.Add(p2);
+    productList.Add(p3);
+}*@
+
+<p>
+    Partial View
+    @Html.Partial("~/Views/Shared/_PartialView1.cshtml",Model)
+</p>
+
+
+
