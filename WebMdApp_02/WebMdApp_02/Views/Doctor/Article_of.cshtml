@@ -1,0 +1,27 @@
+﻿@model IEnumerable<WebMdApp_02.Models.Article>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Articles written by reknowned Doctors:</h2>
+
+@foreach (var item in Model)
+{
+    <p>
+        <h1>
+            @Html.DisplayFor(modelItem => item.Title)
+        </h1>
+        <div>
+            <i>written by - </i>
+            @Html.DisplayFor(modelItem => item.Doctor.DoctorName)
+        </div>
+        <div>
+            <img src="@Url.Content("~/images/"+item.ImagePath)" width="250px" height="200px">
+        </div>
+        <div class="article_content">
+            @Html.DisplayFor(modelItem=>item.Content)
+        </div>
+    </p>
+    
+}

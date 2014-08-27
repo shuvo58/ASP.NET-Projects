@@ -1,0 +1,34 @@
+﻿
+@model WebMdApp_02.Models.Article
+
+@{
+    ViewBag.Title = "title";
+    
+}
+
+<div>
+    <h2>
+        @Html.DisplayFor(m=>m.Title)
+    </h2>
+</div>
+<div>
+    @*@Html.Label("Doctor Name")*@
+    <i>Written by - @ViewBag.NameOfDoctor</i>
+    
+   
+    @*@Html.DisplayFor(m=>m.Doctor.DoctorName)*@
+</div>
+<div>
+    
+    @{
+        string image = Model.ImagePath;
+    }
+    
+    <img src="@Url.Content("~/images/" + image)" width="250px" height="200px">
+    
+</div>
+
+<div>
+   @Html.DisplayFor(a=>a.Content)
+</div>
+

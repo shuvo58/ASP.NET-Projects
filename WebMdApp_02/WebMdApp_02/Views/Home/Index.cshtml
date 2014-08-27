@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Search...</h1>
+@using (Html.BeginForm("Index", "Article", null, FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    
+    
+        <div class="form-group">
+            
+            <div class="col-md-10">
+                @Html.TextBox("text")
+                <input type="submit" value="search">
+            </div>
+        </div>
+}
