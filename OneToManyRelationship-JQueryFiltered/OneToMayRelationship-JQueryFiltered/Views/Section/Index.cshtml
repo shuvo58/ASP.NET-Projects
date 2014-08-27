@@ -1,0 +1,28 @@
+﻿@model IEnumerable<OneToMayRelationship_JQueryFiltered.Models.Section>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm())
+{
+    @Html.DropDownList("departmentId", String.Empty)
+}
+<p>@Html.ActionLink("Create New", "Create")</p>
+<div id="section-data">
+    @Html.Partial("~/Views/Shared/_FilteredSection.cshtml", Model)
+</div>
+
+<script type="text/javascript">
+    function FillData(id) {
+        $("#section-data").load("Section/FilteredSection", { departmentId: id });
+    }
+
+    $(function () {
+        $("#departmentId").change(function () {
+            var id = $("#departmentId").val();
+            FillData(id);
+        });
+    });
+</script>
