@@ -1,0 +1,19 @@
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\bin\Debug\BankingOperationApp.exe.config
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\bin\Debug\BankingOperationApp.exe
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\bin\Debug\BankingOperationApp.pdb
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.AccountInTransactionUI.resources
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.BankOperationUI.resources
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.CreateAccountUI.resources
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.CreateLoanUI.resources
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.LoanInstallmentPaymentUI.resources
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.Properties.Resources.resources
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.ReportUI.resources
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.csproj.GenerateResource.Cache
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.exe
+D:\Jonayet\ASP .NET Training\Day 16 - 6 August 2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.pdb
+D:\basis FTFL\06-aug-2014\Lab Exam\BankingOperationApp\bin\Debug\BankingOperationApp.exe.config
+D:\basis FTFL\06-aug-2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.exe
+D:\basis FTFL\06-aug-2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.pdb
+D:\basis FTFL\10_06-aug-2014\Lab Exam\BankingOperationApp\bin\Debug\BankingOperationApp.exe.config
+D:\basis FTFL\10_06-aug-2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.exe
+D:\basis FTFL\10_06-aug-2014\Lab Exam\BankingOperationApp\obj\Debug\BankingOperationApp.pdb
